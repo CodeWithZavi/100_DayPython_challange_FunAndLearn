@@ -1,41 +1,50 @@
-# # name =  "Sardar Zavian"
-# # age = 20
-# # print(f"my name is {name} and I am {age} years old.")
+# # # name =  "Sardar Zavian"
+# # # age = 20
+# # # print(f"my name is {name} and I am {age} years old.")
 
 
 
-# # #now if i eant directly to print the string without assigning it to a variable
-# # print(f"my name is {'Sardar Zavian'} and I am {20} years old.")
+# # # #now if i eant directly to print the string without assigning it to a variable
+# # # print(f"my name is {'Sardar Zavian'} and I am {20} years old.")
  
-# # print(f"my name is {{'Sardar Zavian'}} and I am {{20}} years old.")
+# # # print(f"my name is {{'Sardar Zavian'}} and I am {{20}} years old.")
 
-# # #docstring literals
-# # def my_function():
-# #     """This is a docstring. It is used to describe what the function does."""
-# #     return None 
-# # print(my_function.__doc__)  # prints the docstring of the function
+# # # #docstring literals
+# # # def my_function():
+# # #     """This is a docstring. It is used to describe what the function does."""
+# # #     return None 
+# # # print(my_function.__doc__)  # prints the docstring of the function
 
-# # #how docstring change the program behavior
-# # def add(a, b):  
-# #     """Returns the sum of a and b."""
-# #     return a + b
-# # print(add(3, 5))  # prints 8
-# # print(add.__doc__)  # prints the docstring of the function
-# # #where program change 
+# # # #how docstring change the program behavior
+# # # def add(a, b):  
+# # #     """Returns the sum of a and b."""
+# # #     return a + b
+# # # print(add(3, 5))  # prints 8
+# # # print(add.__doc__)  # prints the docstring of the function
+# # # #where program change 
 
-# #an example that doc string can change the program and comment cannot
-# def multiply(a, b):
-#     """Returns the product of a and b."""
-#     return a * b
-# print(multiply(4, 6))  # prints 24
-# print(multiply.__doc__)  # prints the docstring of the function
-# help(multiply)  # provides detailed information about the function, including its docstring
-# #without docstring help function will not provide any information
+# # #an example that doc string can change the program and comment cannot
+# # def multiply(a, b):
+# #     """Returns the product of a and b."""
+# #     return a * b
+# # print(multiply(4, 6))  # prints 24
+# # print(multiply.__doc__)  # prints the docstring of the function
+# # help(multiply)  # provides detailed information about the function, including its docstring
+# # #without docstring help function will not provide any information
 
-#recursion example 
-def factorial(n):
-    """Returns the factorial of n."""
-    if n == 0 or n == 1:
-        return 1
-    else: 
-        return n * factorial(n - 1)
+# #recursion example 
+# def factorial(n):
+#     """Returns the factorial of n."""
+#     if n == 0 or n == 1:
+#         return 1
+#     else: 
+#         return n * factorial(n - 1)
+
+noman = {} # epmty dictionary
+print(type(noman))
+
+#importance id dictionary in pyhthon
+# d = { "a": 1, "b": 2, "c": 3 }
+# print(d["a"])  # prints 1
+# print(d.get("b"))  # prints 2
+# d["d"] = 4  # adds a new key-value pair
