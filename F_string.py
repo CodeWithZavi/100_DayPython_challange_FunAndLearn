@@ -32,3 +32,10 @@
 # help(multiply)  # provides detailed information about the function, including its docstring
 # #without docstring help function will not provide any information
 
+#recursion example 
+def factorial(n):
+    """Returns the factorial of n."""
+    if n == 0 or n == 1:
+        return 1
+    else: 
+        return n * factorial(n - 1)
