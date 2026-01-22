@@ -97,13 +97,12 @@
 # # m.append(9)
 # # print("l:",l)   //
 
-# t = {1,2,3}
-# p = [1,2,3]
-# l = (1,2,3)
-# d = { "a":1, "b":2, "c":3 }
-# print(type(t))
-# print(type(p))
-# print(type(l))
-# print(type(d))  
-
+s = {1,2,3}  # add and remove elements in set
+l = [1,2,3] # can be changed
+t = (1,2,3) # cannot be changed
+d = { "a":1, "b":2, "c":3 }
+print(type(s))
+print(type(l))
+print(type(t))
+print(type(d))  
 
